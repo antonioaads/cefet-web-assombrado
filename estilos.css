@@ -166,6 +166,16 @@ main {
   text-shadow: 2px 2px #000;
 }
 
+#tags span {
+  cursor: default;
+  position: relative;
+}
+
+#tags span:active {
+  top: -2px;
+  left: -2px;
+}
+
 .tag-1,
 .tag-2,
 .tag-3 {
