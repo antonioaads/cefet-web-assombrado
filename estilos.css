@@ -181,6 +181,8 @@ main {
   background-size: 300px;
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 #tags h1 {
@@ -225,31 +227,31 @@ main {
 
 .boo {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50px;
+  left: 50px;
   width: 40px;
   opacity: 0.2;
 }
 
 .boo:nth-of-type(4n + 2) {
-  right: 0;
+  right: 50px;
   left: auto;
 }
 
 .boo:nth-of-type(4n + 1) {
   top: auto;
-  right: 0;
-  bottom: 0;
+  right: 50px;
+  bottom: 50px;
   left: auto;
 }
 
 .boo:nth-of-type(4n) {
   top: auto;
-  bottom: 0;
+  bottom: 50px;
 }
 
 .boo:hover {
-  opacity: 0;
+  opacity: 50px;
 }
 
 
