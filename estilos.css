@@ -144,6 +144,15 @@ main {
   display: inline-block;
 }
 
+#ultimas-postagens .novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+  background-color: #019E1E;
+  border-radius: 5px;
+  padding: 3px 10px;
+
+}
+
 
 
 
