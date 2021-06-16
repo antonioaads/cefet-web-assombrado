@@ -4,6 +4,9 @@ body {
   color: white;
   margin: 0;
   font-family: monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2 {
@@ -77,6 +80,7 @@ nav li a {
 
 /* --- Conteúdo principal da página --- */
 main {
+  flex: 1;
   padding-left: 2.5%;
   transition: opacity 1s linear;
   padding-bottom: 3em;
